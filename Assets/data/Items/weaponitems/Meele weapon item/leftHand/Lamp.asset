@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4aa2a8735c0f149a58dc516b4b1f98, type: 3}
+  m_Name: Lamp
+  m_EditorClassIdentifier: 
+  itemsname: Lamp
+  itemsicon: {fileID: 21300000, guid: 5c27fc79dd2011c4ab50f507f7cfb7af, type: 3}
+  itemdesript: 
+  itemID: 2
+  weapon: {fileID: 8116732604239504910, guid: af915c8e4cd0f3942a1fcd5f38e5e15e, type: 3}
+  RightHand: 0
+  strengthREQ: 100
+  dexREQ: 0
+  intREQ: 0
+  faithREQ: 0
+  physicdamage: 20
+  magicdamage: 0
+  firedamage: 0
+  lightningdamage: 0
+  holydamage: 0
+  poisedamage: 20
+  poiseBroken: 1
+  light_Attack_Modifier: 1
+  light_Attack2_Modifier: 1.1
+  light_Attack3_Modifier: 1.2
+  heavy_Attack_Modifier: 1.1
+  heavy_Attack2_Modifier: 1.7
+  charger_attack_modifier: 2
+  charger_attack2_modifier: 2.2
+  baseStaminacost: 10
+  LightAttackstaminacostModifer: 0.9
+  LightAttack_comboing_staminacostModifer: 0.8
+  LightAttack_comboing2_staminacostModifer: 0.7
+  HeavyAttackstaminacostModifer: 1.2
+  ChargeAttackstaminacostModifer: 2
+  R1_action: {fileID: 0}
+  R2_action: {fileID: 0}
+  L1_action: {fileID: 11400000, guid: 83ce62812e8b3934e84440b4b562c907, type: 2}
+  L2_action: {fileID: 11400000, guid: 157af1363b90a3249ade4e1b449812e8, type: 2}
+  Attacksound:
+  - {fileID: 8300000, guid: 0968c084a42fa474096e5327e7fc42ee, type: 3}
+  - {fileID: 8300000, guid: 13d88e725ab3a184abb1557c68564a24, type: 3}

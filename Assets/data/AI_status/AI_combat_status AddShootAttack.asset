@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ce64b224f1f004c93dbc9c2baeafff, type: 3}
+  m_Name: AI_combat_status AddShootAttack
+  m_EditorClassIdentifier: 
+  aicharacterAttacks:
+  - {fileID: 11400000, guid: c3a214557f387324eb588ad2a3a3d7f4, type: 2}
+  - {fileID: 11400000, guid: c3a214557f387324eb588ad2a3a3d7f4, type: 2}
+  - {fileID: 11400000, guid: 69695dff76093e14893e303780d82309, type: 2}
+  - {fileID: 11400000, guid: 7d3d3c196a6b7dc4a809ffba69e603c6, type: 2}
+  potentialAttacks: []
+  canpreformcombo: 0
+  chanceToperformcombo: 25
+  maximumEngaementDistance: 5

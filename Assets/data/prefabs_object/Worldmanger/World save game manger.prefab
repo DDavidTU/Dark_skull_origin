@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1302031091617586804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302031091617586806}
+  - component: {fileID: 1302031091617586805}
+  m_Layer: 0
+  m_Name: World save game manger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1302031091617586806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302031091617586804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 521.89655, y: 274.1063, z: -2.6241531}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1302031091617586805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302031091617586804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c60b11a259645f4cae5832547eca4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3218171792955758464, guid: aa755708bb299d7468f639677ef0313f, type: 3}
+  saveGame: 1
+  loadGame: 0
+  Aicharacter: []
+  BossHPTrasform: {fileID: 0}
+  worldsceneindex: 1
+  currentusingslot: 0
+  currentdata:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 1
+    position_z: 0
+    currentHp: 225
+    currentstamina: 100
+    Hp: 15
+    stamina: 10
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave01:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave02:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave03:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave04:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave05:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave06:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave07:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave08:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave09:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
+  charactersave10:
+    sceneindex: 1
+    character_name: character
+    playtime: 0
+    position_x: 0
+    position_y: 0
+    position_z: 0
+    currentHp: 0
+    currentstamina: 0
+    Hp: 0
+    stamina: 0
+    weaponsInventory: []
+    weaponinRightSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    weaponinLefttSlots:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    currentrightweapon: {fileID: 0}
+    currentleftweapon: {fileID: 0}
+    HPRecoveryamount: 0
+    bossesAwakened:
+      tkeys: 
+      tvalues: 
+    bossesDefeat:
+      tkeys: 
+      tvalues: 
